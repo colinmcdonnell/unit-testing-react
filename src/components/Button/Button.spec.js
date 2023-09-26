@@ -11,13 +11,6 @@ const user = userEvent.setup()
 const props = { onClick: jest.fn() }
 
 describe('<Button />', () => {
-  it('should render', () => {
-    // test "should be enabled" already asserts the button is being rendered so test "should render" is now obsolete
-    render(<Button {...props}>click me</Button>)
-
-    expect(screen.getByRole('button', { name: /click me/i })).toBeInTheDocument()
-  })
-
   it('should be enabled', () => {
     render(<Button {...props}>click me</Button>)
 
@@ -31,10 +24,10 @@ describe('<Button />', () => {
       </Button>
     )
 
-    expect(screen.getByRole('button', { name: /click me/i })).not.toBeEnabled()
+    // expect(screen.getByRole('button', { name: /click me/i })).not.toBeEnabled()
 
     // more than one way to test things
-    // expect(screen.getByRole("button", { name: /click me/i })).toBeDisabled();
+    expect(screen.getByRole("button", { name: /click me/i })).toBeDisabled();
   })
 
   it('should call onClick', async () => {

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getVariant() should get the correct variant for "lg" 1`] = `"large"`;
+
+exports[`getVariant() should get the correct variant for "md" 1`] = `"medium"`;
+
+exports[`getVariant() should get the correct variant for "sm" 1`] = `"small"`;
+
+exports[`getVariant() should get the correct variant for hi 1`] = `undefined`;
+
+exports[`getVariant() should get the correct variant for lg 1`] = `"large"`;
+
+exports[`getVariant() should get the correct variant for md 1`] = `"medium"`;
+
+exports[`getVariant() should get the correct variant for sm 1`] = `"small"`;

@@ -1,0 +1,15 @@
+- Ticket requirements:
+- Build a "change password" form
+    - password must contain letters and/or numbers
+        - String validation: /[a-zA-Z]/.test(string)
+        - Number validation: /\d/.test(string)
+    - should display message if either letters or numbers are not in password
+- Two inputs are presented to the user
+    - input 1 - password
+    - input 2 - confirm password
+        - should show error message if both inputs do not match
+- Submit button should be disabled until the form is valid
+    - valid form
+        - both inputs are filled out
+        - password contains both letters and numbers
+        - both inputs must include the same characters

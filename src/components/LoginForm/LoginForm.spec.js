@@ -6,8 +6,13 @@ import LoginForm from "./LoginForm";
 const user = userEvent.setup();
 
 describe("<LoginForm />", () => {
-  it("submit button should be disabled", () => {
+  it("submit button should be disabled", async () => {
     render(<LoginForm />);
+
+    await user.type(
+      screen.getByRole("textbox", { name: /user name/i }),
+      "Colin"
+    );
 
     expect(screen.getByRole("button", { name: /submit/i })).toBeDisabled();
   });

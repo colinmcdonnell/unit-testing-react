@@ -1,11 +1,11 @@
-import * as S from "./Button.styled";
+import * as S from './Button.styled'
 
-const Button = ({ onClick, disabled, children }) => {
+const Button = ({ onClick, onSubmit, disabled, children }) => {
   return (
-    <S.Button onClick={onClick} disabled={disabled}>
+    <S.Button onClick={onClick} disabled={disabled} onSubmit={onSubmit}>
       {children}
     </S.Button>
-  );
-};
+  )
+}
 
-export default Button;
+export default Button

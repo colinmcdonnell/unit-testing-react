@@ -1,6 +1,7 @@
 import MainLayout from './components/MainLayout/MainLayout'
-import LoginForm from './components/LoginForm/LoginForm'
+// import LoginForm from './components/LoginForm/LoginForm'
 import { GlobalStyles } from './Globals.styled'
+import ChangePasswordForm from './components/ChangePassword/ChangePassword'
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
         <h1 style={{ textAlign: 'center' }}>Unit Testing React</h1>
 
         {/* replace login form with change password form for exercise */}
-        <LoginForm />
+        {/* <LoginForm /> */}
+        <ChangePasswordForm />
       </MainLayout>
     </div>
   )
