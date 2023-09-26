@@ -22,8 +22,6 @@ yarn test
 
 ### Suggested VSC extensions
 
-<ul>
-  <li>[Jest Runner](https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner)</li>
-  <li>[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)</li>
-  <li>[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)</li>
-</ul>
+[Jest Runner](https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner)
+[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
